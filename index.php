@@ -17,20 +17,31 @@
 
 
 <?php
- function calculate($num1, $num2, $symbol){
-    if(isset($_REQUEST['submit'])){
-        if($symbol === '+'){
-            echo $num1 + $num2;
-        }elseif($symbol === '-'){
-            echo $num1 - $num2;
-        }elseif($symbol === '*'){
-            echo $num1 * $num2;
-        }elseif($symbol === '/'){
-            echo $num1 / $num2;
-        }
+
+function calculate($num1, $num2, $symbol){
+    if($symbol === '+'){
+        echo $num1 + $num2;
+    } elseif($symbol === '-'){
+        echo $num1 - $num2;
+    } elseif($symbol === '*'){
+        echo $num1 * $num2;
+    } elseif($symbol === '/'){
+        echo $num1 / $num2;
     }
- }
+}
+
+if(isset($_REQUEST['num1']) && isset($_REQUEST['num2']) && isset($_REQUEST['symbol'])){
+    $num1 = $_REQUEST['num1'];
+    $num2 = $_REQUEST['num2'];
+    $symbol = $_REQUEST['symbol'];
+    calculate($num1, $num2, $symbol); // Call the calculate function directly
+}
 
 
- 
 ?>
+
+
+
+
+
+
