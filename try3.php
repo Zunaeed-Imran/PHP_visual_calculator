@@ -9,8 +9,14 @@
 </head>
 
 <body class="p-3 mb-2 bg-secondary text-white">
-    <form action="calculator_try_2.php" method="get">
+    <form action="try3.php" method="get">
         <div class="row">
+
+            <div class="col">
+                <input type="text" name="expression" class="form-control" placeholder="Enter expression">
+            </div>
+
+
             <div class="col">
                 <button name="seven" type="button" class="btn btn-primary btn-block">7</button>
             </div>
@@ -68,12 +74,45 @@
 
 
     </form>
+
+
 </body>
 
 </html>
 
 <?php
+if (
+    isset($_GET['seven']) || isset($_GET['eight']) || isset($_GET['nine']) ||
+    isset($_GET['four']) || isset($_GET['five']) || isset($_GET['six']) ||
+    isset($_GET['one']) || isset($_GET['two']) || isset($_GET['three']) ||
+    isset($_GET['zero']) || isset($_GET['plus']) || isset($_GET['minus']) ||
+    isset($_GET['multi']) || isset($_GET['devide'])
+) {
 
+    if (isset($_GET['seven'])) echo "7";
+    if (isset($_GET['eight'])) echo "8";
+    if (isset($_GET['nine'])) echo "9";
+    if (isset($_GET['four'])) echo "4";
+    if (isset($_GET['five'])) echo "5";
+    if (isset($_GET['six'])) echo "6";
+    if (isset($_GET['one'])) echo "1";
+    if (isset($_GET['two'])) echo "2";
+    if (isset($_GET['three'])) echo "3";
+    if (isset($_GET['zero'])) echo "0";
+    if (isset($_GET['plus'])) echo "+";
+    if (isset($_GET['minus'])) echo "-";
+    if (isset($_GET['multi'])) echo "*";
+    if (isset($_GET['devide'])) echo "/";
+}
 
+if (isset($_GET['equal'])) {
+    // Get the concatenated expression string
+    $expression = $_GET['expression'];
 
+    // Use eval() to perform the calculation
+    // Note: Using eval() can have security risks, so be cautious
+    // For educational purposes only, not recommended for production
+    eval('$result = ' . $expression . ';');
+    echo "=$result";
+}
 ?>
