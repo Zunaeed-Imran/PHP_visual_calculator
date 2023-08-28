@@ -7,19 +7,19 @@
     <link rel="stylesheet" href="php.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
-<body>
+<body class="p-3 mb-2 bg-secondary text-white">
 
     <form action="index.php" method="get">
-        <div>
+        <div class="form-group">
           <input type="number" name="num1" placeholder="1st number">
         </div>
-        <div>
+        <div class="form-group">
           <input type="number" name="num2" placeholder="2nd number">
         </div>
-        <div>
+        <div class="form-group">
           <input type="symbol" name="symbol" placeholder="symbol"><br>
         </div>
-        <div>
+        <div class="form-group">
           <button type="submit">Submit</button>
         </div>
         
