@@ -10,10 +10,19 @@
 <body>
 
     <form action="index.php" method="get">
-        <input type="number" name="num1" placeholder="1st number"><br>
-        <input type="number" name="num2" placeholder="2nd number"><br>
-        <input type="symbol" name="symbol" placeholder="symbol"><br>
-        <button type="submit">Submit</button>
+        <div>
+          <input type="number" name="num1" placeholder="1st number">
+        </div>
+        <div>
+          <input type="number" name="num2" placeholder="2nd number">
+        </div>
+        <div>
+          <input type="symbol" name="symbol" placeholder="symbol"><br>
+        </div>
+        <div>
+          <button type="submit">Submit</button>
+        </div>
+        
     </form>   
 </body>
 </html>
