@@ -12,57 +12,57 @@
     <form action="calculator_try_2.php" method="get">
         <div class="row">
             <div class="col">
-                <button type="button" class="btn btn-primary btn-block">7</button>
+                <button name="seven" type="button" class="btn btn-primary btn-block">7</button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-primary btn-block">8</button>
+                <button name="eight" type="button" class="btn btn-primary btn-block">8</button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-primary btn-block">9</button>
+                <button name="nine" type="button" class="btn btn-primary btn-block">9</button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-primary btn-block">+</button>
+                <button name="plus" type="button" class="btn btn-primary btn-block">+</button>
             </div>
         </div>
         <div class="row">
             <div class="col">
-                <button type="button" class="btn btn-primary btn-block">4</button>
+                <button name="four" type="button" class="btn btn-primary btn-block">4</button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-primary btn-block">5</button>
+                <button name="five" type="button" class="btn btn-primary btn-block">5</button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-primary btn-block">6</button>
+                <button name="six" type="button" class="btn btn-primary btn-block">6</button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-primary btn-block">-</button>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col">
-                <button type="button" class="btn btn-primary btn-block">1</button>
-            </div>
-            <div class="col">
-                <button type="button" class="btn btn-primary btn-block">2</button>
-            </div>
-            <div class="col">
-                <button type="button" class="btn btn-primary btn-block">3</button>
-            </div>
-            <div class="col">
-                <button type="button" class="btn btn-primary btn-block">*</button>
+                <button name="minus" type="button" class="btn btn-primary btn-block">-</button>
             </div>
         </div>
 
         <div class="row">
             <div class="col">
-                <button type="button" class="btn btn-primary btn-block">0</button>
+                <button name="one" type="button" class="btn btn-primary btn-block">1</button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-primary btn-block">/</button>
+                <button name="two" type="button" class="btn btn-primary btn-block">2</button>
             </div>
             <div class="col">
-                <button type="button" class="btn btn-primary btn-block">=</button>
+                <button name="three" type="button" class="btn btn-primary btn-block">3</button>
+            </div>
+            <div class="col">
+                <button name="multi" type="button" class="btn btn-primary btn-block">*</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <button name="zero" type="button" class="btn btn-primary btn-block">0</button>
+            </div>
+            <div class="col">
+                <button name="devide" type="button" class="btn btn-primary btn-block">/</button>
+            </div>
+            <div class="col">
+                <button name="equal" type="button" class="btn btn-primary btn-block">=</button>
             </div>
         </div>
 
