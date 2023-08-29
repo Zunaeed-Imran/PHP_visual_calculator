@@ -6,6 +6,8 @@
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
 </head>
+
+
 <body class="p-3 mb-2 bg-secondary text-white" style="--bs-bg-opacity: .8;">
 <div class="container">
     <div class="row">
@@ -23,10 +25,10 @@
                 <input type="button" class="btn btn-primary me-2" name="num" value="6"><br>
                 <input type="button" class="btn btn-primary me-2" name="num" value="1">
                 <input type="button" class="btn btn-primary me-2" name="num" value="2">
-                <input type="button" class="btn btn-primary me-4" name="num" value="3"><br>
-                <input type="button" class="btn btn-success me-4" name="plus" value="+">
-                <input type="button" class="btn btn-success me-4" name="subtrac" value="-">
-                <input type="button" class="btn btn-success me-4" name="multi" value="*">
+                <input type="button" class="btn btn-primary me-2" name="num" value="3"><br>
+                <input type="button" class="btn btn-success me-2" name="plus" value="+">
+                <input type="button" class="btn btn-success me-2" name="subtrac" value="-">
+                <input type="button" class="btn btn-success me-2" name="multi" value="*">
             </form>
 
         </div>
@@ -34,14 +36,29 @@
     </div>
 
 </div>
+
+
+<script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const display = document.querySelector(".display");
+
+            document.querySelectorAll("[name='num'],[name='plus'],[name='subtrac'],[name='multi'],[name='devide'],[name='equal'],[name='c']").forEach(button => {
+                button.addEventListener("click", function() {
+                    display.value += button.value;
+                });
+            });
+
+            // Add similar event listeners for other buttons (operators, clear, etc.).
+        });
+
+    </script>
 </body>
 </html>
 
 
 <?php
 
-if(isset($_REQUEST['equal'])){
 
-}
+
 
 ?>
