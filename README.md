@@ -12,3 +12,7 @@
 <div class="ms-auto">Automatic left margin</div>
 
 ```
+3. button margin is me
+```
+<input type="button" class="btn btn-danger me-2" name="c" value="C">
+```

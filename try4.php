@@ -13,20 +13,20 @@
             <form action="try4.php" method="$_GET">
                 <input type="text" class="display form-control" name="display">
                 <input type="button" class="btn btn-danger me-2" name="c" value="C">
-                <input type="button" class="btn btn-warning mr-2" name="equal" value="=">
-                <input type="button" class="btn btn-success mr-2" name="devide" value="/"><br>
-                <input type="button" class="btn btn-primary mr-2" name="num" value="7">
-                <input type="button" class="btn btn-primary mr-2" name="num" value="8">
-                <input type="button" class="btn btn-primary mr-2" name="num" value="9"><br>
-                <input type="button" class="btn btn-primary mr-2" name="num" value="4">
-                <input type="button" class="btn btn-primary mr-2" name="num" value="5">
-                <input type="button" class="btn btn-primary mr-2" name="num" value="6"><br>
-                <input type="button" class="btn btn-primary mr-2" name="num" value="1">
-                <input type="button" class="btn btn-primary mr-2" name="num" value="2">
-                <input type="button" class="btn btn-primary mr-4" name="num" value="3"><br>
-                <input type="button" class="btn btn-success mr-4" name="plus" value="+">
-                <input type="button" class="btn btn-success mr-4" name="subtrac" value="-">
-                <input type="button" class="btn btn-success mr-4" name="multi" value="*">
+                <input type="button" class="btn btn-warning me-2" name="equal" value="=">
+                <input type="button" class="btn btn-success me-2" name="devide" value="/"><br>
+                <input type="button" class="btn btn-primary me-2" name="num" value="7">
+                <input type="button" class="btn btn-primary me-2" name="num" value="8">
+                <input type="button" class="btn btn-primary me-2" name="num" value="9"><br>
+                <input type="button" class="btn btn-primary me-2" name="num" value="4">
+                <input type="button" class="btn btn-primary me-2" name="num" value="5">
+                <input type="button" class="btn btn-primary me-2" name="num" value="6"><br>
+                <input type="button" class="btn btn-primary me-2" name="num" value="1">
+                <input type="button" class="btn btn-primary me-2" name="num" value="2">
+                <input type="button" class="btn btn-primary me-4" name="num" value="3"><br>
+                <input type="button" class="btn btn-success me-4" name="plus" value="+">
+                <input type="button" class="btn btn-success me-4" name="subtrac" value="-">
+                <input type="button" class="btn btn-success me-4" name="multi" value="*">
             </form>
 
         </div>
