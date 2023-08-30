@@ -16,4 +16,8 @@
 ```
 <input type="button" class="btn btn-danger me-2" name="c" value="C">
 ```
+<<<<<<< HEAD
 4. 
+=======
+4. "try4" have used javascript to call every single button 
+>>>>>>> 8797b6e (main)
