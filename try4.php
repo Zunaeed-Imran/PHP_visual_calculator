@@ -27,20 +27,13 @@
                 <input type="button" class="btn btn-primary me-2" name="num" value="1">
                 <input type="button" class="btn btn-primary me-2" name="num" value="2">
                 <input type="button" class="btn btn-primary me-2" name="num" value="3"><br>
-                <input type="button" class="btn btn-danger me-2" name="c" value="C">           
+                <input type="button" class="btn btn-danger me-2" name="c" value="c">           
                 <input type="button" class="btn btn-primary me-2" name="num" value="0">
-                <input type="button" class="btn btn-warning me-2" name="equal" value="=">               
-                
-                
+                <input type="submit" class="btn btn-warning me-2" name="equal" value="=">                                              
             </form>
-
         </div>
-
     </div>
-
 </div>
-
-
 <script>
         document.addEventListener("DOMContentLoaded", function() {
             const display = document.querySelector(".display");
@@ -50,20 +43,20 @@
                     display.value += button.value;
                 });
             });
-
-            // Add similar event listeners for other buttons (operators, clear, etc.).
         });
  </script>
 </body>
 </html>
 
-
 <?php
 
-function calculate($num, $symbol)
-{
+
+
+function calculate($num, $symbol, $c, $equal)
+ {
+
     if ($symbol === '+') {
-        echo $num + $num;
+        $sum = $num+$num; 
     } elseif ($symbol === '-') {
         echo $num - $num;
     } elseif ($symbol === '*') {
@@ -71,14 +64,15 @@ function calculate($num, $symbol)
     } elseif ($symbol === '/') {
         echo $num / $num;
     } 
-}
+var_dump($num);
+ }
 
 if (isset($_REQUEST['num']) && isset($_REQUEST['c']) && isset($_REQUEST['equal'])  && isset($_REQUEST['symbol'])) {
     $num = $_REQUEST['num'];
     $symbol = $_REQUEST['symbol'];
     $c = $_REQUEST['c'];
     $equal = $_REQUEST['equal'];
-    calculate($num, $symbol); 
+    calculate($num, $symbol, $c, $equal); 
 }
 
 
