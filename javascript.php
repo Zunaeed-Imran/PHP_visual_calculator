@@ -1,3 +1,5 @@
+<?php
+
 {/* <input name="other" /> */}
 {/* <input name="num" /> */} // selected
 {/* <input name="symbol" /> */} // selected
@@ -28,3 +30,6 @@ document.querySelectorAll("#btn");
 {/* <input class="btn btn-success me-2" /> */}
 {/* <input class="btn" /> */} // selected
 document.querySelector("[class=btn]");
+
+
+?>
