@@ -13,7 +13,7 @@
     <div class="row">
         <div class="col-md-12">
             <form action="try4.php" method="get">
-                <input type="text" class="display form-control" name="display">
+                <input type="text" class="display form-control" name="display" readonly>
                 <input type="button" class="btn btn-success me-2" name="symbol" value="+">
                 <input type="button" class="btn btn-success me-2" name="symbol" value="-">
                 <input type="button" class="btn btn-success me-2" name="symbol" value="*">
