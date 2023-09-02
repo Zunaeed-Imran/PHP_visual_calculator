@@ -62,3 +62,4 @@ const result = eval('x + y'); // Evaluates to 30
 ```
 - Security Risks: eval() should be used with caution because it can execute any code, 
 - In summary, eval() can be a powerful tool for dynamic code execution in JavaScript, but it should be used with caution and only in situations where it is necessary. In most cases, there are safer and more secure alternatives to achieve the same results.
+- JSON.parse() is alternatives.
