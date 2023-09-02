@@ -22,7 +22,7 @@
 4. "try4" have used javascript to call every single button 
 >>>>>>> 8797b6e (main)
 
-## The final calculator is "try5.php" & "cal_css.css"
+## The final calculator is "try5.php" & "cal_css.css" ###[example in js fiddle](https://jsfiddle.net/6j93q4L5/)
 
 5. .value it's a property of HTML input elements. in javascript i used
  -.value is a common way to interact with input elements in HTML using JavaScript to get or set their values.
@@ -63,3 +63,4 @@ const result = eval('x + y'); // Evaluates to 30
 - Security Risks: eval() should be used with caution because it can execute any code, 
 - In summary, eval() can be a powerful tool for dynamic code execution in JavaScript, but it should be used with caution and only in situations where it is necessary. In most cases, there are safer and more secure alternatives to achieve the same results.
 - JSON.parse() is alternatives.
+
