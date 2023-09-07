@@ -1,4 +1,4 @@
-<!-- // CALCULATOR WITHOUT eval function -->
+<!-- // CALCULATOR WITHOUT Try catch  function -->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -41,6 +41,7 @@
         }
 
         function calculate(){
+            const result = eval(document.getElementById('display').value); // we made it without try catch using.
             document.getElementById('display').value = result;
         }
 
