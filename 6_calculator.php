@@ -41,8 +41,8 @@
         }
 
         function calculate(){
-        document.getElementById('display').value = result;
-         }
+            document.getElementById('display').value = result;
+        }
 
     </script>
 </body>
