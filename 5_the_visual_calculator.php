@@ -34,7 +34,7 @@
             document.getElementById('display').value += value;
         }
 
-        function clearDisplay() {
+        function clearDisplay() {    // if i only name clear it won't work
             document.getElementById('display').value = '';
         }
 
