@@ -32,6 +32,18 @@
 
     <script>
 
+        function display(val){
+            document.getElementById('display').value += val;
+        }
+
+        function cle(){
+            document.getElementById('display').value = '';
+        }
+
+        function calculate(){
+        document.getElementById('display').value = result;
+         }
+
     </script>
 </body>
 </html>
