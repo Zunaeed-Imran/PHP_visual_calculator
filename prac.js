@@ -7,5 +7,6 @@ function clearD(){
 }
 
 function calculate(){
-        document.getElementById('display').value = result;
+    const result = eval(document.getElementById('display').value);
+    document.getElementById('display').value = result;
     }
