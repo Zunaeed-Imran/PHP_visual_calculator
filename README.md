@@ -16,11 +16,9 @@
 ```
 <input type="button" class="btn btn-danger me-2" name="c" value="C">
 ```
-<<<<<<< HEAD
-4. 
-=======
-4. "try4" have used javascript to call every single button 
->>>>>>> 8797b6e (main)
+
+![Calculator](/picture/calculator.png)
+
 
 ## The final calculator is "try5.php" & "cal_css.css" ###[example in js fiddle](https://jsfiddle.net/6j93q4L5/)
 
